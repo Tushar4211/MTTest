@@ -47,4 +47,4 @@ jobs:
           context: .
           file: ./MTTest.API/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/MTTest:latest, ${{ secrets.DOCKERHUB_USERNAME }}/dockerfordotnetapi:${{ github.run_number }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/MTTest:latest, ${{ secrets.DOCKERHUB_USERNAME }}/MTTest:${{ github.run_number }}
